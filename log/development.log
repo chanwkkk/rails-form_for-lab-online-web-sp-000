@@ -322,3 +322,12 @@ Processing by StudentsController#show as HTML
 Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/students/3/edit" for 75.71.7.56 at 2019-09-16 05:44:49 +0000
+Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering students/edit.html.erb within layouts/application
+  Rendered students/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.2ms)
+
+
