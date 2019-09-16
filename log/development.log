@@ -296,3 +296,10 @@ Processing by StudentsController#index as HTML
 Completed 200 OK in 321ms (Views: 320.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students/new" for 75.71.7.56 at 2019-09-16 05:44:21 +0000
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 47ms (Views: 34.2ms | ActiveRecord: 1.7ms)
+
+
