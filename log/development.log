@@ -293,3 +293,6 @@ Started GET "/students" for 75.71.7.56 at 2019-09-16 05:44:12 +0000
 Processing by StudentsController#index as HTML
   Rendering students/index.html.erb within layouts/application
   Rendered students/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 321ms (Views: 320.3ms | ActiveRecord: 0.0ms)
+
+
